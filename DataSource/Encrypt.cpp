@@ -52,20 +52,24 @@ void Encrypt::engine (DataSource* MyDataSource, DataTarget* MyTarget, uint32_t* 
 
 void Encrypt::engine1 (DataSource* MyDataSource, DataTarget* MyTarget, uint32_t* pswd, const bool CryptMode)
 {
+    ReadBytes=0;
     DataBlockReader BlockReader;
+
     while(MyDataSource->HasNext())
     {
     //vector<uint32_t> MyVector = MyDataSource->GetData();
     //vector<uint32_t> result;
 
-    uint32_t vec[2], *BlockReturning;
-    BlockReturning=BlockReader.GetBlock(MyDataSource);
+    uint32_t vec[2];
+    //BlockReturning=BlockReader.GetBlock(MyDataSource);
+    ReadBytes += BlockReader.GetBlock1(MyDataSource, vec);
+    /*
     for(int i=0; i<2; i++)
     {
         vec[i]=BlockReturning[i];
         //cout<<vec[i]<<endl;
     }
-
+    */
         if(!CryptMode) sum = 0;
         else sum = 0xC6EF3720;
 
@@ -89,6 +93,9 @@ void Encrypt::engine1 (DataSource* MyDataSource, DataTarget* MyTarget, uint32_t*
 
     MyTarget->PutBlock(vec);
     }
+
+    cout<<"Number of read bytes is: "<<ReadBytes<<endl;
+    //MyDataSource->CountByteT();
     return;
 }
 

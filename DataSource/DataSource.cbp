@@ -43,6 +43,8 @@
 		<Unit filename="ConsoleTarget.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="DataBlockReader.cpp" />
+		<Unit filename="DataBlockReader.h" />
 		<Unit filename="DataSource.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -65,6 +67,9 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="MemoryTarget.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Range.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />

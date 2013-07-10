@@ -163,10 +163,10 @@
 1373197861 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\consolesource.cpp
 	"ConsoleSource.h"
 
-1373199640 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.cpp
+1373430036 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.cpp
 	"ConsoleTarget.h"
 
-1373199640 c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.h
+1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.h
 	"DataTarget.h"
 
 1373430127 c:\users\masha\desktop\proj1\datasource(1)\datasource\datatarget.h
@@ -177,11 +177,11 @@
 	<fstream>
 	<cstring>
 
-1373402210 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.cpp
+1373433918 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.cpp
 	"Encrypt.h"
 	"DataBlockReader.h"
 
-1373401838 c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.h
+1373433309 c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.h
 	"Abstract_Encrypt.h"
 
 1373430035 c:\users\masha\desktop\proj1\datasource(1)\datasource\abstract_encrypt.h
@@ -194,32 +194,32 @@
 	"DataSource.h"
 	"DataTarget.h"
 
-1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\datasource.h
+1373433843 c:\users\masha\desktop\proj1\datasource(1)\datasource\datasource.h
 	<iostream>
 	<cstdio>
 	<algorithm>
 	<vector>
 	<fstream>
 
-1373356819 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.cpp
+1373433964 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.cpp
 	"FileSource.h"
 
-1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.h
+1373433844 c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.h
 	"DataSource.h"
 
-1373401315 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filetarget.cpp
+1373430127 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filetarget.cpp
 	"FileTarget.h"
 
 1373430127 c:\users\masha\desktop\proj1\datasource(1)\datasource\filetarget.h
 	"DataTarget.h"
 
-1373197861 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consolesource.cpp
+1373430035 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consolesource.cpp
 	"ConsoleSource.h"
 
 1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\consolesource.h
 	"DataSource.h"
 
-1373402089 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\main.cpp
+1373437065 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\main.cpp
 	"DataSource.h"
 	"DataBlockReader.h"
 	"FileSource.h"
@@ -232,13 +232,20 @@
 	"Encrypt.h"
 	"DataBlockReader.h"
 
-1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\datablockreader.h
+1373433122 c:\users\masha\desktop\proj1\datasource(1)\datasource\datablockreader.h
 	"DataSource.h"
 	<cstring>
 
-1373275528 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorysource.h
+1373435800 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorysource.h
 	"DataSource.h"
+	"Range.h"
 
-1373200210 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorytarget.h
+1373436388 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorytarget.h
 	"DataSource.h"
+	"Range.h"
+
+1373433122 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\datablockreader.cpp
+	"DataBlockReader.h"
+
+1373435744 c:\users\masha\desktop\proj1\datasource(1)\datasource\range.h
 

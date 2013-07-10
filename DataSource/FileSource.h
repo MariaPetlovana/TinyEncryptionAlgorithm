@@ -12,6 +12,7 @@ public:
     ~FileSource ();
     virtual bool HasNext();
     virtual char ReturnByte();
+    //void CountByteT(){cout<<CountByte<<endl;}
 
 protected:
     ifstream fi;

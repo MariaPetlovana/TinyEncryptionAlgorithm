@@ -2,25 +2,43 @@
 #define MEMORYTARGET_H_INCLUDED
 
 #include "DataSource.h"
+#include "Range.h"
 
 using namespace std;
 
-template<typename T>
+//template<typename T>
 class MemoryTarget : public DataTarget
 {
 public:
-    MemoryTarget (T* OutputMemoryArray);
+    MemoryTarget (uint32_t* OutputMemoryArray, size_t n)
+    {
+        MemoryArray=OutputMemoryArray;
+        SizeOfArray=n;
+    }
+
+    virtual void PutBlock(uint32_t* v)
+    {
+        //MyRange.MakeRange(v, 2);
+
+        //size_t i=0;
+        while(MemoryArray != (MemoryArray+SizeOfArray) && v != (v+2))
+        {
+            *MemoryArray = *v;
+            ++MemoryArray;
+            ++v;
+        }
+    }
 
 protected:
-    T* MemoryArray;
+    uint32_t* MemoryArray;
     size_t SizeOfArray;
-    size_t SizeOfElement;
-
-    virtual void PutTarget (vector<uint32_t> v);
+    //size_t SizeOfElement;
+    //Range<uint32_t, T> MyRange;
+    //virtual void PutTarget (vector<uint32_t> v);
 };
 
 
-
+/*
 template<typename T>
 MemoryTarget<T>::MemoryTarget(T* OutputMemoryArray)
 {
@@ -76,5 +94,5 @@ void MemoryTarget<T>::PutTarget(vector<uint32_t> v)
 
     return;
 }
-
+*/
 #endif // MEMORYTARGET_H_INCLUDED

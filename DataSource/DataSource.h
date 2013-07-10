@@ -27,6 +27,8 @@ public:
     virtual bool HasNext() = 0;
     virtual char ReturnByte() = 0;
 
+    void CountByteT(){cout<<CountByte<<endl;}
+
 };
 
 #endif // DATASOURCE_H_INCLUDED

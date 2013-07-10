@@ -7,6 +7,9 @@ using namespace std;
 
 class Encrypt: public Abstract_Encrypt
 {
+  protected:
+    size_t ReadBytes;
+
   public:
     virtual void engine (DataSource* MyDataSource, DataTarget* MyTarget, uint32_t* pswd, const bool CryptMode);
     virtual void engine1 (DataSource* MyDataSource, DataTarget* MyTarget, uint32_t* pswd, const bool CryptMode);

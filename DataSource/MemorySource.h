@@ -2,6 +2,7 @@
 #define MEMORYSOURCE_H_INCLUDED
 
 #include "DataSource.h"
+#include "Range.h"
 
 using namespace std;
 
@@ -9,16 +10,33 @@ template<typename T>
 class MemorySource : public DataSource
 {
 public:
-    MemorySource (T* InputMemoryArray);
+    virtual bool HasNext()
+    {
+        if(MyRange.BeginByte != MyRange.EndByte)
+        return 1;
+        return 0;
+    }
+    virtual char ReturnByte()
+    {
+        char ret = *MyRange.BeginByte;
+        ++MyRange.BeginByte;
+        return ret;
+    }
+    MemorySource(T* array, size_t n)
+    {
+        MyRange.MakeRange(array, n);
+    }
 
 protected:
-    T* MemoryArray;
-    size_t SizeOfArray;
-    size_t SizeOfElement;
+    //T* MemoryArray;
+    //size_t SizeOfArray;
+    //size_t SizeOfElement;
 
-    virtual vector<uint32_t> ReadSource();
+    Range<T, char> MyRange;
+
+    //virtual vector<uint32_t> ReadSource();
 };
-
+/*
 template<typename T>
 MemorySource<T>::MemorySource(T* InputMemoryArray)
 {
@@ -31,7 +49,9 @@ MemorySource<T>::MemorySource(T* InputMemoryArray)
         MemoryArray = InputMemoryArray;
     }
 }
+*/
 
+/*
 template<typename T>
 vector<uint32_t> MemorySource<T>::ReadSource()
 {
@@ -86,8 +106,8 @@ vector<uint32_t> MemorySource<T>::ReadSource()
     cout<<v[j]<<endl;
 
     cout<<endl;
-    */
+
     return v;
 }
-
+*/
 #endif // MEMORYSOURCE_H_INCLUDED
