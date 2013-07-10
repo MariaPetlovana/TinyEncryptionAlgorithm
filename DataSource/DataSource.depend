@@ -1,0 +1,244 @@
+# depslib dependency file v1.0
+1373208623 source:c:\users\masha\desktop\proj1\datasource\main.cpp
+	<cstdio>
+	<algorithm>
+	<vector>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<stack>
+	<cmath>
+	<set>
+	<cstring>
+	<cassert>
+	<string>
+	<climits>
+	<bitset>
+	<queue>
+	<map>
+	<fstream>
+	"DataSource.h"
+	"FileSource.h"
+	"ConsoleSource.h"
+	"MemorySource.h"
+	"DataTarget.h"
+	"FileTarget.h"
+	"MemoryTarget.h"
+	"Abstract_Encrypt.h"
+	"Encrypt.h"
+
+1373196605 c:\users\masha\desktop\proj1\datasource\filesource.cpp
+	"FileSource.h"
+
+1373197862 c:\users\masha\desktop\proj1\datasource\filesource.h
+	"DataSource.h"
+
+1373196038 c:\users\masha\desktop\proj1\datasource\datasource.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+
+1373197862 source:c:\users\masha\desktop\proj1\datasource\filesource.cpp
+	"FileSource.h"
+
+1373197861 source:c:\users\masha\desktop\proj1\datasource\consolesource.cpp
+	"ConsoleSource.h"
+
+1373197862 c:\users\masha\desktop\proj1\datasource\consolesource.h
+	"DataSource.h"
+
+1373199288 source:c:\users\masha\desktop\proj1\datasource\filetarget.cpp
+	"FileTarget.h"
+
+1373199288 c:\users\masha\desktop\proj1\datasource\filetarget.h
+	"DataTarget.h"
+
+1373199338 c:\users\masha\desktop\proj1\datasource\datatarget.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+
+1373198682 c:\users\masha\desktop\proj1\datasource\memorysource.h
+	"DataSource.h"
+
+1373199640 source:c:\users\masha\desktop\proj1\datasource\consoletarget.cpp
+	"ConsoleTarget.h"
+
+1373199640 c:\users\masha\desktop\proj1\datasource\consoletarget.h
+	"DataTarget.h"
+
+1373200210 c:\users\masha\desktop\proj1\datasource\memorytarget.h
+	"DataSource.h"
+
+1373200881 c:\users\masha\desktop\proj1\datasource\abstract_encrypt.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+	"DataSource.h"
+	"DataTarget.h"
+
+1373208530 source:c:\users\masha\desktop\proj1\datasource\encrypt.cpp
+	"Encrypt.h"
+
+1373200837 c:\users\masha\desktop\proj1\datasource\encrypt.h
+	"Abstract_Encrypt.h"
+
+1373199640 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\consoletarget.cpp
+	"ConsoleTarget.h"
+
+1373199640 c:\users\1\documents\projects\datasource\datasource (1)\datasource\consoletarget.h
+	"DataTarget.h"
+
+1373199338 c:\users\1\documents\projects\datasource\datasource (1)\datasource\datatarget.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+
+1373274932 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\encrypt.cpp
+	"Encrypt.h"
+
+1373200837 c:\users\1\documents\projects\datasource\datasource (1)\datasource\encrypt.h
+	"Abstract_Encrypt.h"
+
+1373200881 c:\users\1\documents\projects\datasource\datasource (1)\datasource\abstract_encrypt.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+	"DataSource.h"
+	"DataTarget.h"
+
+1373356927 c:\users\1\documents\projects\datasource\datasource (1)\datasource\datasource.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+
+1373356819 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\filesource.cpp
+	"FileSource.h"
+
+1373356892 c:\users\1\documents\projects\datasource\datasource (1)\datasource\filesource.h
+	"DataSource.h"
+
+1373274932 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\filetarget.cpp
+	"FileTarget.h"
+
+1373199288 c:\users\1\documents\projects\datasource\datasource (1)\datasource\filetarget.h
+	"DataTarget.h"
+
+1373288762 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\main.cpp
+	"DataSource.h"
+	"FileSource.h"
+	"ConsoleSource.h"
+	"MemorySource.h"
+	"DataTarget.h"
+	"FileTarget.h"
+	"MemoryTarget.h"
+	"Abstract_Encrypt.h"
+	"Encrypt.h"
+
+1373197862 c:\users\1\documents\projects\datasource\datasource (1)\datasource\consolesource.h
+	"DataSource.h"
+
+1373275528 c:\users\1\documents\projects\datasource\datasource (1)\datasource\memorysource.h
+	"DataSource.h"
+
+1373200210 c:\users\1\documents\projects\datasource\datasource (1)\datasource\memorytarget.h
+	"DataSource.h"
+
+1373197861 source:c:\users\1\documents\projects\datasource\datasource (1)\datasource\consolesource.cpp
+	"ConsoleSource.h"
+
+1373199640 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.cpp
+	"ConsoleTarget.h"
+
+1373199640 c:\users\masha\desktop\proj1\datasource(1)\datasource\consoletarget.h
+	"DataTarget.h"
+
+1373430127 c:\users\masha\desktop\proj1\datasource(1)\datasource\datatarget.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+
+1373402210 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.cpp
+	"Encrypt.h"
+	"DataBlockReader.h"
+
+1373401838 c:\users\masha\desktop\proj1\datasource(1)\datasource\encrypt.h
+	"Abstract_Encrypt.h"
+
+1373430035 c:\users\masha\desktop\proj1\datasource(1)\datasource\abstract_encrypt.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+	<cstring>
+	"DataSource.h"
+	"DataTarget.h"
+
+1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\datasource.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<fstream>
+
+1373356819 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.cpp
+	"FileSource.h"
+
+1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\filesource.h
+	"DataSource.h"
+
+1373401315 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\filetarget.cpp
+	"FileTarget.h"
+
+1373430127 c:\users\masha\desktop\proj1\datasource(1)\datasource\filetarget.h
+	"DataTarget.h"
+
+1373197861 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\consolesource.cpp
+	"ConsoleSource.h"
+
+1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\consolesource.h
+	"DataSource.h"
+
+1373402089 source:c:\users\masha\desktop\proj1\datasource(1)\datasource\main.cpp
+	"DataSource.h"
+	"DataBlockReader.h"
+	"FileSource.h"
+	"ConsoleSource.h"
+	"MemorySource.h"
+	"DataTarget.h"
+	"FileTarget.h"
+	"MemoryTarget.h"
+	"Abstract_Encrypt.h"
+	"Encrypt.h"
+	"DataBlockReader.h"
+
+1373430036 c:\users\masha\desktop\proj1\datasource(1)\datasource\datablockreader.h
+	"DataSource.h"
+	<cstring>
+
+1373275528 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorysource.h
+	"DataSource.h"
+
+1373200210 c:\users\masha\desktop\proj1\datasource(1)\datasource\memorytarget.h
+	"DataSource.h"
+
